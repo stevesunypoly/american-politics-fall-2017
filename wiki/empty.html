@@ -46,7 +46,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <title>My TiddlyWiki — a non-linear personal web notebook</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 
 </head>
 <body class="tc-body">
@@ -150,6 +165,12 @@ Error message and password prompt
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Field 21</li>
 
+<li>$:/_ExcelImporter/ImportSpecifiers/Field 22</li>
+
+<li>$:/_ExcelImporter/ImportSpecifiers/Field 23</li>
+
+<li>$:/_ExcelImporter/ImportSpecifiers/Field 24</li>
+
 <li>$:/_ExcelImporter/ImportSpecifiers/Field 3</li>
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Field 4</li>
@@ -170,13 +191,19 @@ Error message and password prompt
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Row 2</li>
 
+<li>$:/_ExcelImporter/ImportSpecifiers/Row 3</li>
+
 <li>$:/_ExcelImporter/ImportSpecifiers/Sheet</li>
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Sheet 1</li>
 
 <li>$:/_ExcelImporter/ImportSpecifiers/Sheet 2</li>
 
+<li>$:/_ExcelImporter/ImportSpecifiers/Sheet 3</li>
+
 <li>$:/_ExcelImporter/ImportSpecifiers/Workbook</li>
+
+<li>$:/_ExcelImporter/ImportSpecifiers/Workbook 1</li>
 
 <li>$:/config/AnimationDuration</li>
 
@@ -196,7 +223,11 @@ Error message and password prompt
 
 <li>$:/plugins/tiddlywiki/jszip</li>
 
+<li>$:/plugins/tiddlywiki/twitter</li>
+
 <li>$:/plugins/tiddlywiki/xlsx-utils</li>
+
+<li>$:/plugins/tobibeer/split</li>
 
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row</li>
 
@@ -204,13 +235,19 @@ Error message and password prompt
 
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row 2</li>
 
+<li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row 3</li>
+
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet</li>
 
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet 1</li>
 
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet 2</li>
 
+<li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet 3</li>
+
 <li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Workbook</li>
+
+<li>$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Workbook 1</li>
 
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row</li>
 
@@ -218,13 +255,21 @@ Error message and password prompt
 
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row 2</li>
 
+<li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row 3</li>
+
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet</li>
 
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 1</li>
 
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 2</li>
 
+<li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 3</li>
+
 <li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook</li>
+
+<li>$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook 1</li>
+
+<li>$:/state/plugin-info-2069695326-$:/plugins/tiddlywiki/twitter--1140713763</li>
 
 <li>$:/state/showeditpreview</li>
 
@@ -243,6 +288,8 @@ Error message and password prompt
 <li>$:/state/tab/sidebar--1835078512</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/temp/advancedsearch</li>
 
 <li>$:/temp/info-plugin</li>
 
@@ -398,9 +445,19 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>A Tweet</li>
+
+<li>A Twitter Stream</li>
+
+<li>Administrative Agencies &amp; Departments</li>
+
+<li>Checkbox tag macro</li>
+
 <li>Classes</li>
 
 <li>classes template</li>
+
+<li>Congress</li>
 
 <li>custom-style-sheet</li>
 
@@ -409,6 +466,8 @@ Error message and password prompt
 <li>fpnl by single tag Macro sorted</li>
 
 <li>https://www.isidewith.com/polls</li>
+
+<li>Judiciary</li>
 
 <li>module-name</li>
 
@@ -450,11 +509,29 @@ Error message and password prompt
 
 <li>My Key Issues</li>
 
-<li>New Tiddler</li>
-
 <li>noauthor_powers_nodate</li>
 
+<li>numtags</li>
+
 <li>Political Autobiography</li>
+
+<li>Political Institutions</li>
+
+<li>Presidency</li>
+
+<li>stevesunypoly. August 16, 2017 at 02:36PM</li>
+
+<li>The House is on fire</li>
+
+<li>Tweet-6:29 AM - 16 Aug 2017</li>
+
+<li>Tweet-6:35 AM - 14 Aug 2017</li>
+
+<li>Tweet-7:59 AM - 16 Aug 2017</li>
+
+<li>Tweets</li>
+
+<li>tweets templates</li>
 
 <li>Untitled</li>
 
@@ -543,6 +620,15 @@ Error message and password prompt
 <div created="20170815184808918" import-field-column="module-due" import-field-name="module-due" import-field-source="column" import-field-type="string" import-spec-role="field" modified="20170815184815731" title="$:/_ExcelImporter/ImportSpecifiers/Field 21">
 <pre></pre>
 </div>
+<div created="20170816150928992" import-field-column="createdAt" import-field-name="title" import-field-prefix="Tweet-" import-field-source="column" import-field-type="string" import-spec-role="field" modified="20170816152110979" title="$:/_ExcelImporter/ImportSpecifiers/Field 22">
+<pre></pre>
+</div>
+<div created="20170816151355899" import-field-column="link" import-field-name="tweet-link" import-field-source="column" import-field-type="string" import-spec-role="field" modified="20170816151404321" title="$:/_ExcelImporter/ImportSpecifiers/Field 23">
+<pre></pre>
+</div>
+<div created="20170816151407022" import-field-column="Column Name" import-field-list-op="append" import-field-name="tags" import-field-source="constant" import-field-type="string" import-field-value="TweetsToBeReviewed" import-spec-role="field" modified="20170816154940881" title="$:/_ExcelImporter/ImportSpecifiers/Field 24">
+<pre></pre>
+</div>
 <div created="20170815182937533" import-field-column="module-name" import-field-name="module-name" import-field-source="column" import-field-type="string" import-spec-role="field" modified="20170815182954410" title="$:/_ExcelImporter/ImportSpecifiers/Field 3">
 <pre></pre>
 </div>
@@ -573,6 +659,9 @@ Error message and password prompt
 <div created="20170815183358330" import-spec-role="row" list="[[$:/_ExcelImporter/ImportSpecifiers/Field 21]] [[$:/_ExcelImporter/ImportSpecifiers/Field 20]] [[$:/_ExcelImporter/ImportSpecifiers/Field 19]] [[$:/_ExcelImporter/ImportSpecifiers/Field 18]] [[$:/_ExcelImporter/ImportSpecifiers/Field 17]] [[$:/_ExcelImporter/ImportSpecifiers/Field 16]] [[$:/_ExcelImporter/ImportSpecifiers/Field 15]]" modified="20170815184808920" title="$:/_ExcelImporter/ImportSpecifiers/Row 2">
 <pre></pre>
 </div>
+<div created="20170816150924493" import-spec-role="row" list="[[$:/_ExcelImporter/ImportSpecifiers/Field 24]] [[$:/_ExcelImporter/ImportSpecifiers/Field 23]] [[$:/_ExcelImporter/ImportSpecifiers/Field 22]]" modified="20170816151407023" title="$:/_ExcelImporter/ImportSpecifiers/Row 3">
+<pre></pre>
+</div>
 <div created="20170815182803742" import-sheet-name="modules" import-spec-role="sheet" list="$:/_ExcelImporter/ImportSpecifiers/Row" modified="20170815182842782" title="$:/_ExcelImporter/ImportSpecifiers/Sheet">
 <pre></pre>
 </div>
@@ -582,7 +671,13 @@ Error message and password prompt
 <div created="20170815183353432" import-sheet-name="classes" import-spec-role="sheet" list="[[$:/_ExcelImporter/ImportSpecifiers/Row 2]]" modified="20170815183358332" title="$:/_ExcelImporter/ImportSpecifiers/Sheet 2">
 <pre></pre>
 </div>
+<div created="20170816150919176" import-sheet-name="tweets" import-spec-role="sheet" list="[[$:/_ExcelImporter/ImportSpecifiers/Row 3]]" modified="20170816150924495" title="$:/_ExcelImporter/ImportSpecifiers/Sheet 3">
+<pre></pre>
+</div>
 <div caption="syllabus" created="20170815182753662" import-spec-role="workbook" list="[[$:/_ExcelImporter/ImportSpecifiers/Sheet 2]] [[$:/_ExcelImporter/ImportSpecifiers/Sheet 1]] $:/_ExcelImporter/ImportSpecifiers/Sheet" modified="20170815183353434" title="$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<pre></pre>
+</div>
+<div caption="TwitterFeed" created="20170816150339440" import-spec-role="workbook" list="[[$:/_ExcelImporter/ImportSpecifiers/Sheet 3]]" modified="20170816150919178" title="$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
 <pre></pre>
 </div>
 <div created="20170815193622142" modified="20170815193622142" title="$:/config/AnimationDuration">
@@ -591,8 +686,8 @@ Error message and password prompt
 <div created="20170815200502428" modified="20170815200502428" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
 <pre>show</pre>
 </div>
-<div created="20170815183605540" modified="20170815183605540" title="$:/config/plugins/tiddlywiki/xlsx-utils/default-import-spec">
-<pre>$:/_ExcelImporter/ImportSpecifiers/Workbook</pre>
+<div created="20170815183605540" modified="20170816151431232" title="$:/config/plugins/tiddlywiki/xlsx-utils/default-import-spec">
+<pre>$:/_ExcelImporter/ImportSpecifiers/Workbook 1</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.14">
 <pre>{
@@ -8794,7 +8889,7 @@ Error message and password prompt
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[noauthor_powers_nodate]]</pre>
+# [[stevesunypoly. August 16, 2017 at 02:36PM]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -8846,6 +8941,102 @@ Error message and password prompt
         &quot;$:/plugins/tiddlywiki/jszip/readme&quot;: {
             &quot;title&quot;: &quot;$:/plugins/tiddlywiki/jszip/readme&quot;,
             &quot;text&quot;: &quot;This plugin packages [[JSZip|https://stuk.github.io/jszip/]] for use by other plugins. It does not provide any end-user visible features.\n&quot;
+        }
+    }
+}</pre>
+</div>
+<div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="Twitter for TiddlyWiki" list="readme usage" plugin-type="plugin" title="$:/plugins/tiddlywiki/twitter" type="application/json" version="5.1.14">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/plugins/tiddlywiki/twitter/macros&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/macros&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Macro&quot;,
+            &quot;text&quot;: &quot;\\define twitter-usage(text)\nFor example:\n\n&lt;$codeblock code=\&quot;\&quot;\&quot;$text$\&quot;\&quot;\&quot;/&gt;\n\nRenders as:\n\n$text$\n\\end\n\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/rawmarkup&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/rawmarkup&quot;,
+            &quot;tags&quot;: &quot;$:/tags/RawMarkup&quot;,
+            &quot;text&quot;: &quot;&lt;script&gt;window.twttr = (function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0],\n    t = window.twttr || {};\n  if (d.getElementById(id)) return t;\n  js = d.createElement(s);\n  js.id = id;\n  js.src = \&quot;https://platform.twitter.com/widgets.js\&quot;;\n  fjs.parentNode.insertBefore(js, fjs);\n\n  t._e = [];\n  t.ready = function(f) {\n    t._e.push(f);\n  };\n\n  return t;\n}(document, \&quot;script\&quot;, \&quot;twitter-wjs\&quot;));&lt;/script&gt;&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/readme&quot;,
+            &quot;text&quot;: &quot;This plugin provides a `&lt;$twitter&gt;` widget that can embed various entities from Twitter's service:\n\n* Individual tweets and conversations\n* Buttons for tweeting/mentioning, sharing, following\n* Various types of timeline: profile, likes, list, collection, url and widget\n\nThe widget only works in the browser, and not in generated static HTML pages.\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/widget.js&quot;: {
+            &quot;text&quot;: &quot;/*\\\ntitle: $:/plugins/tiddlywiki/twitter/widget.js\ntype: application/javascript\nmodule-type: widget\n\nTwitter widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tw: false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\n\nvar TwitterWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\nTwitterWidget.prototype = new Widget();\n\nvar optionAttributes = \&quot;align ariaPolite borderColor cards chrome conversation count dnt hashtags height height lang linkColor related size text theme tweetLimit via width\&quot;.split(\&quot; \&quot;),\n\totherAttributes = \&quot;hashtag id ownerScreenName screenName slug tweetID type url userId widgetId\&quot;.split(\&quot; \&quot;),\n\tallAttributes = Array.prototype.slice.call(optionAttributes,0).concat(otherAttributes);\n\n/*\nRender this widget into the DOM\n*/\nTwitterWidget.prototype.render = function(parent,nextSibling) {\n\tvar self = this;\n\t// Housekeeping\n\tthis.parentDomNode = parent;\n\tthis.computeAttributes();\n\t// Compose the arguments for the tweet call\n\tvar method,\n\t\targ,\n\t\toptions = {};\n\t\t$tw.utils.each(optionAttributes,function(attr) {\n\t\t\toptions[attr] = self.getAttribute(attr);\n\t\t});\n\tswitch(this.getAttribute(\&quot;type\&quot;)) {\n\t\tcase \&quot;shareButton\&quot;:\n\t\t\tmethod = \&quot;createShareButton\&quot;;\n\t\t\targ = this.getAttribute(\&quot;url\&quot;);\n\t\t\tbreak;\n\t\tcase \&quot;followButton\&quot;:\n\t\t\tmethod = \&quot;createFollowButton\&quot;;\n\t\t\targ = this.getAttribute(\&quot;screenName\&quot;);\n\t\t\tbreak;\n\t\tcase \&quot;hashtagButton\&quot;:\n\t\t\tmethod = \&quot;createHashtagButton\&quot;;\n\t\t\targ = this.getAttribute(\&quot;hashtag\&quot;);\n\t\t\tbreak;\n\t\tcase \&quot;mentionButton\&quot;:\n\t\t\tmethod = \&quot;createMentionButton\&quot;;\n\t\t\targ = this.getAttribute(\&quot;screenName\&quot;);\n\t\t\tbreak;\n\t\tcase \&quot;tweet\&quot;:\n\t\t\tmethod = \&quot;createTweet\&quot;;\n\t\t\targ = this.getAttribute(\&quot;tweetID\&quot;);\n\t\t\tbreak;\n\t\tcase \&quot;timelineProfile\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;profile\&quot;,\n\t\t\t\tscreenName: this.getAttribute(\&quot;screenName\&quot;),\n\t\t\t\tuserId: this.getAttribute(\&quot;userId\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t\tcase \&quot;timelineLikes\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;likes\&quot;,\n\t\t\t\tscreenName: this.getAttribute(\&quot;screenName\&quot;),\n\t\t\t\tuserId: this.getAttribute(\&quot;userId\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t\tcase \&quot;timelineList\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;list\&quot;,\n\t\t\t\townerScreenName: this.getAttribute(\&quot;ownerScreenName\&quot;),\n\t\t\t\tslug: this.getAttribute(\&quot;slug\&quot;),\n\t\t\t\tid: this.getAttribute(\&quot;id\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t\tcase \&quot;timelineCollection\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;collection\&quot;,\n\t\t\t\tid: this.getAttribute(\&quot;id\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t\tcase \&quot;timelineUrl\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;url\&quot;,\n\t\t\t\turl: this.getAttribute(\&quot;url\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t\tcase \&quot;timelineWidget\&quot;:\n\t\t\tmethod = \&quot;createTimeline\&quot;;\n\t\t\targ = {\n\t\t\t\tsourceType: \&quot;widget\&quot;,\n\t\t\t\twidgetId: this.getAttribute(\&quot;widgetId\&quot;)\n\t\t\t};\n\t\t\tbreak;\n\t}\n\t// Render the tweet into a div\n\tvar div = this.document.createElement(\&quot;div\&quot;);\n\tif(!this.document.isTiddlyWikiFakeDom &amp;&amp; window.twttr &amp;&amp; method) {\n\t\ttwttr.ready(function(twttr) {\n\t\t\twindow.twttr.widgets[method](arg,div,options);\n\t\t});\n\t} else {\n\t\tdiv.appendChild(this.document.createTextNode(\&quot;Can't render tweet\&quot;));\n\t}\n\t// Insert it into the DOM\n\tparent.insertBefore(div,nextSibling);\n\tthis.domNodes.push(div);\n};\n\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\nTwitterWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(allAttributes.find(function(attr) {\n\t\treturn $tw.utils.hop(changedAttributes,attr);\n\t})) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t} else {\n\t\treturn false;\t\n\t}\n};\n\nexports.twitter = TwitterWidget;\n\n})();\n&quot;,
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/widget.js&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;widget&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/collectiontimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/collectiontimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Collection Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding Collection Timelines\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineCollection\&quot; |none |\&quot;timelineCollection\&quot; |\n|''id'' |ID of the collection |none | |\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineCollection\&quot; id=\&quot;393773266801659904\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/followbutton&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/followbutton&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Follow Button&quot;,
+            &quot;text&quot;: &quot;!! Embedding Follow Buttons\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;followButton\&quot; |none |\&quot;followButton\&quot; |\n|''screenName'' |Screen name of the account to be followed |none | |\n|''count'' |\&quot;none\&quot;, \&quot;horizontal\&quot; |\&quot;horizontal\&quot; | |\n|''text'' |Any string |none |The default, highlighted text a user sees in the Tweet web intent |\n|''hashtags'' |A comma-separated list of hashtags |none |A list of hashtags to be appended to default Tweet text where appropriate |\n|''align'' |\&quot;left\&quot;, \&quot;right\&quot; |locale dependent (left or right, depending on the text direction of the language) |The alignment of the button within an iframe; use this to ensure flush layout when aligning buttons |\n|''size'' |\&quot;medium\&quot;, \&quot;large\&quot; |medium |Size of button |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;followButton\&quot; screenName=\&quot;TiddlyWiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/hashtagbutton&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/hashtagbutton&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Hashtag Button&quot;,
+            &quot;text&quot;: &quot;!! Embedding Hashtag Buttons\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;hashtagButton\&quot; |none |\&quot;hashtagButton\&quot; |\n|''hashtag'' |Hashtag to be tweeted and displayed on the button |none | |\n|''text'' |Any string |none |The default, highlighted text a user sees in the Tweet web intent |\n|''align'' |\&quot;left\&quot;, \&quot;right\&quot; |locale dependent (left or right, depending on the text direction of the language) |The alignment of the button within an iframe; use this to ensure flush layout when aligning buttons |\n|''size'' |\&quot;medium\&quot;, \&quot;large\&quot; |medium |Size of button |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;hashtagButton\&quot; hashtag=\&quot;TiddlyWiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/likestimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/likestimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Likes Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding Likes Timelines\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineLikes\&quot; |none |\&quot;timelineLikes\&quot; |\n|''screenName'' |Screen name of the account |none |Either ''screenName'' or ''userId'' must be provided |\n|''userId'' |User ID of the account |none |~|\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineLikes\&quot; screenName=\&quot;tiddlywiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/listtimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/listtimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;List Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding List Timelines\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineList\&quot; |none |\&quot;timelineList\&quot; |\n|''ownerScreenName'' |Screen name of the account |none |Either both ''ownerScreenName'' and ''slug'' must be provided, or just ''id'' |\n|''slug'' |The string identifier for a list |none |~|\n|''id'' |ID of the list |none |~|\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineList\&quot; ownerScreenName=\&quot;isaach\&quot; slug=\&quot;home-timeline\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/mentionbutton&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/mentionbutton&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Mention Button&quot;,
+            &quot;text&quot;: &quot;!! Embedding Mention Buttons\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;mentionButton\&quot; |none |\&quot;mentionButton\&quot; |\n|''screenName'' |Screen name of the account to be mentioned |none | |\n|''text'' |Any string |none |The default, highlighted text a user sees in the Tweet web intent |\n|''hashtags'' |A comma-separated list of hashtags |none |A list of hashtags to be appended to default Tweet text where appropriate |\n|''align'' |\&quot;left\&quot;, \&quot;right\&quot; |locale dependent (left or right, depending on the text direction of the language) |The alignment of the button within an iframe; use this to ensure flush layout when aligning buttons |\n|''size'' |\&quot;medium\&quot;, \&quot;large\&quot; |medium |Size of button |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;mentionButton\&quot; screenName=\&quot;TiddlyWiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/profiletimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/profiletimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Profile Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding Profile Timelines\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineProfile\&quot; |none |\&quot;timelineProfile\&quot; |\n|''screenName'' |Screen name of the account |none |Either ''screenName'' or ''userId'' must be provided |\n|''userId'' |User ID of the account |none |~|\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineProfile\&quot; screenName=\&quot;tiddlywiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/sharebutton&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/sharebutton&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Share Button&quot;,
+            &quot;text&quot;: &quot;!! Embedding Share Buttons\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;shareButton\&quot; |none |\&quot;shareButton\&quot; |\n|''url'' |The URL to be shared |none | |\n|''text'' |Any string |none |The default, highlighted text a user sees in the Tweet web intent |\n|''hashtags'' |A comma-separated list of hashtags |none |A list of hashtags to be appended to default Tweet text where appropriate |\n|''align'' |\&quot;left\&quot;, \&quot;right\&quot; |locale dependent (left or right, depending on the text direction of the language) |The alignment of the button within an iframe; use this to ensure flush layout when aligning buttons |\n|''size'' |\&quot;medium\&quot;, \&quot;large\&quot; |medium |Size of button |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;shareButton\&quot; url=\&quot;http://tiddlywiki.com/\&quot; text=\&quot;Mind blown!\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/tweet&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/tweet&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Tweet&quot;,
+            &quot;text&quot;: &quot;!! Embedding Tweets\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;tweet\&quot; |none |\&quot;tweet\&quot; |\n|''tweetID'' |ID of the tweet to render |none | |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |true, false |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;tweet\&quot; tweetID=\&quot;750677030589587456\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/urltimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/urltimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Url Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding Profile Timelines\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineUrl\&quot; |none |\&quot;timelineUrl\&quot; |\n|''url'' |Absolute URL of a Twitter profile, likes, list, or collection |none | |\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineUrl\&quot; url=\&quot;https://twitter.com/TiddlyWiki\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage/widgettimeline&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage/widgettimeline&quot;,
+            &quot;tags&quot;: &quot;$:/tags/TwitterUsage&quot;,
+            &quot;caption&quot;: &quot;Widget Timeline&quot;,
+            &quot;text&quot;: &quot;!! Embedding Widget Timelines\n\nTo power an embedded timeline with a widget configuration generated at https://twitter.com/settings/widgets.\n\n|!Attribute |!Values |!Default |!Notes |\n|''type'' |\&quot;timelineWidget\&quot; |none |\&quot;timelineWidget\&quot; |\n|''widgetId'' |ID of the widget |none |~|\n|''chrome'' |\&quot;noheader\&quot;, \&quot;nofooter\&quot;, \&quot;noborders\&quot;, \&quot;transparent\&quot;, \&quot;noscrollbar\&quot; |none |Toggle the display of design elements in the widget. This parameter is a space-separated list of values |\n|''height'' |Positive integer |600 |Set a fixed height of the embedded widget |\n|''tweetLimit'' |Range: 1-20 |none |Render a timeline statically, displaying only n number of Tweets |\n|''borderColor'' |Hexadecimal color |Varies by theme |Adjust the color of borders inside the widget |\n|''ariaPolite'' |\&quot;polite\&quot;, \&quot;assertive\&quot;, \&quot;rude\&quot; |\&quot;polite\&quot; |Apply the specified aria-polite behavior to the rendered timeline. New Tweets may be added to the top of a timeline, affecting screen readers |\n|''conversation'' |\&quot;none\&quot;, \&quot;all\&quot; |\&quot;all\&quot; |Tweets in response to another Tweet will display a compact version of the previous Tweet by default. Use \&quot;none\&quot; to hide the parent Tweet in the conversation |\n|''cards'' |\&quot;hidden\&quot;, \&quot;visible\&quot;|visible |Hide photos, videos, and link previews powered by Twitter Cards |\n|''width'' |Positive integer |\&quot;auto\&quot;, derived from container size |Set the maximum width of the embedded Tweet |\n|''align''\t|\&quot;left\&quot;, \&quot;right\&quot;, \&quot;center\&quot;\t|none |Float the embedded Tweet to the left or right so that text wraps around it, or align center so it floats in the middle of a paragraph |\n|''theme'' |\&quot;dark\&quot;, \&quot;light\&quot; |\&quot;light\&quot;\t|Toggle the default color scheme of the embedded Tweet |\n|''linkColor'' |Hexadecimal color |\&quot;#2b7bb9\&quot; |Adjust the color of links, including hashtags and @mentions, inside the widget |\n|''lang'' |An ISO 639-1 language code |en |The language in which to render a widget, if supported |\n|''dnt'' |\&quot;true\&quot;, \&quot;false\&quot; |false |Enable Do Not Track for this widget |\n|''related'' |Any comma-separated list of valid Twitter screen names |none |A list of Twitter screen names to be suggested for following after a Tweet or Tweet action is posted |\n|''via'' |Any valid Twitter screen name |none |A Twitter user mentioned in the default Tweet text as via @user where appropriate |\n\n&lt;&lt;twitter-usage \&quot;\&quot;\&quot;&lt;$twitter type=\&quot;timelineWidget\&quot; widgetId=\&quot;570670821065379840\&quot;/&gt;\n\&quot;\&quot;\&quot;&gt;&gt;\n&quot;
+        },
+        &quot;$:/plugins/tiddlywiki/twitter/usage&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/twitter/usage&quot;,
+            &quot;text&quot;: &quot;The `&lt;$twitter&gt;` widget can be used to embed several different entities:\n\n&lt;$macrocall $name=\&quot;tabs\&quot; state=&lt;&lt;qualify \&quot;$:/state/twitter/usage\&quot;&gt;&gt; tabsList=\&quot;[all[tiddlers+shadows]tag[$:/tags/TwitterUsage]]\&quot; default=\&quot;$:/plugins/tiddlywiki/twitter/usage/tweet\&quot; class=\&quot;tc-vertical\&quot;/&gt;\n&quot;
         }
     }
 }</pre>
@@ -8933,6 +9124,28 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div author="Tobias Beer" bag="default" core-version="&gt;=5.1.9" dependents="" description="A filter to split input titles and slice-up the results" documentation="https://tobibeer.github.io/tw5-split" list="readme" plugin-type="plugin" revision="0" source="https://github.com/tobibeer/tw5-split" title="$:/plugins/tobibeer/split" type="application/json" version="0.8.0">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/plugins/tobibeer/split/filter.js&quot;: {
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/split/filter.js\r\ntype: application/javascript\r\nmodule-type: filteroperator\r\n\r\nFilter operator that splits each item at a specified separator.\r\n\r\n@preserve\r\n\\*/\n(function(){\&quot;use strict\&quot;;exports.split=function(s,t,e){var i,a,f=e.wiki,r=t.suffix||\&quot;\&quot;,n=[],l=[],u=[],o=[],p={negate:t.prefix===\&quot;!\&quot;,split:t.operand,prefix:\&quot;\&quot;,suffix:\&quot;\&quot;,num:1,$num:1},c=[[/^\\s+/,function(){}],[/^(num|pos|\\$num|\\$pos)=(n|-n|\\d+|-\\d+)(?:\\s|$)/i,function(s){p[s[1]]=s[2];if(s[1].charAt(0)===\&quot;$\&quot;){p.mode=\&quot;$pos\&quot;}if(s[1]===\&quot;$num\&quot;&amp;&amp;!p.$pos){p.$pos=1}if(s[1]===\&quot;num\&quot;&amp;&amp;!p.pos){p.pos=1}}],[/^(\\+|at|!at|first|!first|last|!last|list|keep|strict|\\$strict|trim|unique)(?:\\s|$)/i,function(s){var t=s[1];p[t]=1;switch(t){case\&quot;+\&quot;:p.suffix=p.split;break;case\&quot;!at\&quot;:p.nat=1;case\&quot;at\&quot;:i=p.split.match(/(\\d+),(\\d+)/);if(i){p.at=parseInt(i[1]);p.to=parseInt(i[2])}else{p.at=parseInt(p.split)}if(isNaN(p.at)){throw\&quot;suffix 'at' must be numeric: \&quot;+p.at}else{p.at=p.at-1}break;case\&quot;list\&quot;:p.list=\&quot;list\&quot;;break;case\&quot;first\&quot;:p.pos=1;break;case\&quot;!first\&quot;:p.pos=2;p.num=\&quot;n\&quot;;break;case\&quot;last\&quot;:p.pos=\&quot;n\&quot;;break;case\&quot;!last\&quot;:p.pos=\&quot;-2\&quot;;p.num=\&quot;-n\&quot;;break}}],[/^(before|after|beforelast|afterlast)(?:\\s|$)/i,function(s){var t=s[1];p.before=(t.toLowerCase().indexOf(\&quot;before\&quot;)===0?1:2)+(t.toLowerCase().indexOf(\&quot;last\&quot;)===t.length-4?2:0)}],[/^list\\=\\s*([^\\s]+)(?:\\s|$)/i,function(s){p.list=s[1]}],[/^(\\!)?(\\$|\\$all|\\$first|\\$last)(?:\\s|$)/i,function(s){var t=s[2];p.mode=t;p.neg=s[1]?1:0;if(t===\&quot;$first\&quot;){if(p.neg){p.$pos=2;p.$num=\&quot;n\&quot;}else{p.$pos=1}}else if(t===\&quot;$last\&quot;){if(p.neg){p.$pos=\&quot;-2\&quot;;p.$num=\&quot;-n\&quot;}else{p.$pos=\&quot;n\&quot;}}}],[/^(?:\\+\\\\([^\\\\]+)\\\\|\\\\([^\\\\]+)\\\\\\+)/,function(s){if(s[1]){p.prefix=s[1]}else{p.suffix=s[2]}}]];try{while(r){a=r;$tw.utils.each(c,function(s){var t=s[0].exec(r);if(t){s[1].call(this,t);r=r.substr(t[0].length);return false}});if(r===a){throw\&quot;invalid suffix(es) '\&quot;+r+\&quot;'\&quot;}}if(p.list&amp;&amp;p.split){o=$tw.utils.parseStringArray(p.split)}else{s(function(s,t){var e,a,r=[];l.push(t);if(p.before){i=1+(p.before&lt;3?t.indexOf(p.split):t.lastIndexOf(p.split));if(i&gt;0){r=[p.before%2===1?t.substr(0,i-1):t.substr(i+p.split.length-1)]}if(p.keep&amp;&amp;i===0){r[0]=t}}else if(p.at){if(p.to){r=p.nat?[t.substr(0,p.at)+t.substr(p.at+p.to)]:[t.substr(p.at,p.to)];if(p.keep&amp;&amp;r[0]===\&quot;\&quot;){r[0]=t}}else{r=[t.substr(0,p.at)];a=t.substr(p.at);if(a){r.push(a)}}}else if(p.list){r=f.getTiddlerList(t,p.list)}else{r=t.split(p.split)}e=r.length&gt;1||p.list||r.length&gt;0&amp;&amp;(p.before||p.to);if(p.pos){r=$tw.utils.getArrayItems(r,p.pos,p.num,p.strict)}if(r.length&amp;&amp;(e||p.keep)){n.push(t);$tw.utils.each(r,function(s){if(p.trim){s=s.trim()}if(s){if(!p.unique||p.unique&amp;&amp;o.indexOf(s)&lt;0){o.push(p.prefix+s+p.suffix)}}})}else{u.push(t)}})}if(t.suffix){switch(p.mode){case\&quot;$\&quot;:o=n;break;case\&quot;$all\&quot;:if(o.length){if(p.negate){u=[]}else{o=l}}else if(p.negate){u=l}break;case\&quot;$first\&quot;:case\&quot;$last\&quot;:case\&quot;$pos\&quot;:o=$tw.utils.getArrayItems(o,p.$pos,p.$num,p.$strict);break}}}catch($){return[\&quot;split syntax error:\&quot;+$]}return p.negate?u:o}})();&quot;,
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/split/filter.js&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;filteroperator&quot;
+        },
+        &quot;$:/plugins/tobibeer/split/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/split/readme&quot;,
+            &quot;text&quot;: &quot;Provides the filter `split[by]`, splitting input titles `by` a string defined in the operand, allowing you to slice and dice output elements as needed.\n\n; suffixes\r\n: `$` — return input titles that yield split items\r\n: `$all` — return all input titles if any yield split items\r\n: `+` — append operand to split titles\r\n: `+\\x\\` — append x to split titles\r\n: `\\x\\+` — prepend x to split titles\r\n: `unique` — prevents duplicate titles in the output\r\n: `trim` — no leading/trailing blanks in split titles\r\n: `first` — first title of the split =&gt; `!first` — all but first\r\n: `last` — last title of the split =&gt; `!last` — all but last\r\n: `at[&lt;num&gt;]` — split in two at number in the operand\r\n: `at[&lt;num&gt;,&lt;len&gt;]` — slice out ''len'' characters starting at character ''num''\r\n: `!at[&lt;num&gt;,&lt;len&gt;]` — cutting the above out of the input title\r\n: `before[x]` / `after[x]` — up until / after first match of `x`\r\n: `beforelast[x]` / `afterlast[x]`— up until / after last match of `x`\r\n: `pos=2` — 2nd split item of each input title in turn\r\n: `pos=1 num=3` — first three each\r\n: `pos=2 num=n` — 2nd to last each\r\n: `pos=-2 num=-n` — first to 2nd last each\r\n: `strict` — specified `num` is mandatory\r\n: `$pos`, `$num`, `$strict`, `$first`, `$!first`,`$last`, `$!last` — for final list\r\n: `keep` — return title even if not split\r\n: `list[]` — parse list field of input titles\r\n: `list=tags[]` — parse tags field of input titles\r\n: `list&lt;foo&gt;` — parse (soft) operand as list, e.g. variables or text-references\n\n&lt;br&gt;\n\n; documentation / examples / demos...\r\n: http://tobibeer.github.io/tw5-plugins#split&quot;
+        },
+        &quot;$:/plugins/tobibeer/split/utils.js&quot;: {
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/split/utils.js\r\ntype: application/javascript\r\nmodule-type: utils\r\n\r\n@preserve\r\n\\*/\n(function(){\&quot;use strict\&quot;;exports.getArrayItems=function(e,t,n,s){var i,a=parseInt(n),f=parseInt(t),r=e.length;if(t===\&quot;n\&quot;){f=r}else if(t===\&quot;-n\&quot;){f=1}else if(!t){f=1}if(n===\&quot;n\&quot;){a=r}else if(n===\&quot;-n\&quot;){a=-(f&lt;0?r+f+1:f)}else if(!n){a=1}f=Math.max(1,f&lt;0?r+f+(a&lt;0?a+2:1):a&lt;0?f+a+1:f);a=Math.max(1,Math.abs(a));i=e.splice(f-1,a);if(i.length&lt;a&amp;&amp;s){i=[]}return i}})();&quot;,
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/split/utils.js&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;utils&quot;
+        }
+    }
+}</pre>
+</div>
 <div created="20170815182842783" modified="20170815183109265" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row">
 <pre>no</pre>
 </div>
@@ -8940,6 +9153,9 @@ Error message and password prompt
 <pre>no</pre>
 </div>
 <div created="20170815183358332" modified="20170815184817180" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row 2">
+<pre>no</pre>
+</div>
+<div created="20170816150924495" modified="20170816154948627" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Row 3">
 <pre>no</pre>
 </div>
 <div created="20170815182803744" modified="20170815183340018" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet">
@@ -8951,7 +9167,13 @@ Error message and password prompt
 <div created="20170815183353436" modified="20170815183538171" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet 2">
 <pre>no</pre>
 </div>
+<div created="20170816150919178" modified="20170816150919178" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Sheet 3">
+<pre>yes</pre>
+</div>
 <div created="20170815182753663" modified="20170815182753663" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<pre>yes</pre>
+</div>
+<div created="20170816150339441" modified="20170816150339441" title="$:/state/edit/$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
 <pre>yes</pre>
 </div>
 <div created="20170815182842784" modified="20170815183113933" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row">
@@ -8963,6 +9185,9 @@ Error message and password prompt
 <div created="20170815183358332" modified="20170815184806735" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row 2">
 <pre>yes</pre>
 </div>
+<div created="20170816150924495" modified="20170816154933829" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Row 3">
+<pre>yes</pre>
+</div>
 <div created="20170815182803745" modified="20170815183332358" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet">
 <pre>yes</pre>
 </div>
@@ -8972,8 +9197,17 @@ Error message and password prompt
 <div created="20170815183353437" modified="20170815183353437" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 2">
 <pre>yes</pre>
 </div>
-<div created="20170815182753664" modified="20170815182753664" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<div created="20170816150919178" modified="20170816150919178" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Sheet 3">
 <pre>yes</pre>
+</div>
+<div created="20170815182753664" modified="20170816150338071" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook">
+<pre>no</pre>
+</div>
+<div created="20170816150339441" modified="20170816150339441" title="$:/state/expand/$:/_ExcelImporter/ImportSpecifiers/Workbook 1">
+<pre>yes</pre>
+</div>
+<div created="20170816144318583" modified="20170816144318583" title="$:/state/plugin-info-2069695326-$:/plugins/tiddlywiki/twitter--1140713763">
+<pre>usage</pre>
 </div>
 <div created="20170815200532879" modified="20170815200532879" title="$:/state/showeditpreview">
 <pre>yes</pre>
@@ -8981,11 +9215,11 @@ Error message and password prompt
 <div created="20170815185700166" modified="20170815185700166" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20170815193838263" modified="20170815202027502" title="$:/state/sidebar">
-<pre>no</pre>
+<div created="20170815193838263" modified="20170816145137038" title="$:/state/sidebar">
+<pre>yes</pre>
 </div>
-<div created="20170815185650949" modified="20170815193829394" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Theme</pre>
+<div created="20170815185650949" modified="20170816144423230" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/StoryView</pre>
 </div>
 <div created="20170815182713208" modified="20170815194008735" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
@@ -8993,14 +9227,17 @@ Error message and password prompt
 <div created="20170815182636226" modified="20170815194015999" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20170815182618413" modified="20170815200453314" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20170815182618413" modified="20170816150335099" title="$:/state/tab-1749438307">
+<pre>$:/plugins/tiddlywiki/xlsx-utils/controls</pre>
 </div>
 <div created="20170815183607891" modified="20170815201951049" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[New Tiddler]] GettingStarted" title="$:/StoryList">
+<div list="[[A Tweet]] [[tweets templates]] $:/Import [[stevesunypoly. August 16, 2017 at 02:36PM]]" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20170816144313993" modified="20170816144313993" title="$:/temp/advancedsearch">
+<pre>twitter</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9048,8 +9285,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20170815182753663" modified="20170815184808919" title="$:/temp/newtiddler">
-<pre>$:/_ExcelImporter/ImportSpecifiers/Field 21</pre>
+<div created="20170815182753663" modified="20170816151407022" title="$:/temp/newtiddler">
+<pre>$:/_ExcelImporter/ImportSpecifiers/Field 24</pre>
 </div>
 <div author="Paco Rivière" core-version="&gt;=5.0.0" created="20170815194013251" dependents="" description="Catalan (Spain)" icon="data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22810%22%20height%3D%22540%22%3E%0A%3Crect%20width%3D%22810%22%20height%3D%22540%22%20fill%3D%22%23FCDD09%22%2F%3E%0A%3Cpath%20stroke%3D%22%23DA121A%22%20stroke-width%3D%2260%22%20d%3D%22M0%2C90H810m0%2C120H0m0%2C120H810m0%2C120H0%22%2F%3E%0A%3C%2Fsvg%3E" modified="20170815194013251" name="ca-ES" original-plugin-type="language" original-tags="" original-title="$:/languages/ca-ES" original-type="application/json" server-url="http://tiddlywiki.com/library/v5.1.14/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/http://tiddlywiki.com/library/v5.1.14/index.html/$:/languages/ca-ES" type="text/vnd.tiddlywiki" version="5.1.14">
 <pre></pre>
@@ -9486,13 +9723,13 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20170815194013251" dependents="" description="Basic theme" modified="20170815194013251" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" server-url="http://tiddlywiki.com/library/v5.1.14/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/http://tiddlywiki.com/library/v5.1.14/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.14">
 <pre></pre>
 </div>
-<div created="20170815182624841" modified="20170815194018977" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
-<pre>bibte</pre>
+<div created="20170815182624841" modified="20170816144302083" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
+<pre>twitter</pre>
 </div>
-<div created="20170815184848976" modified="20170815190432481" title="$:/temp/search">
-<pre></pre>
+<div created="20170815184848976" modified="20170816154657783" title="$:/temp/search">
+<pre>check</pre>
 </div>
-<div created="20170815194013114" modified="20170815194013114" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tiddlywiki.com/library/v5.1.14/index.html" url="http://tiddlywiki.com/library/v5.1.14/index.html">
+<div created="20170816144303944" modified="20170816144303944" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tiddlywiki.com/library/v5.1.14/index.html" url="http://tiddlywiki.com/library/v5.1.14/index.html">
 <pre>loaded</pre>
 </div>
 <div created="20170815182726837" modified="20170815200455357" title="$:/theme">
@@ -9641,8 +9878,55 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
     }
 }</pre>
 </div>
-<div created="20170815193113108" modified="20170815193113108" title="$:/view">
-<pre>zoomin</pre>
+<div created="20170815193113108" modified="20170816144425848" title="$:/view">
+<pre>classic</pre>
+</div>
+<div created="20170816144401111" modified="20170816190832295" tags="" title="A Tweet">
+<pre>&lt;$twitter type=&quot;tweet&quot; tweetID=&quot;897812562766639108&quot;/&gt;
+&lt;hr&gt;
+A workflow:
+
+# Tweet
+# IFTTT [[recipe|https://ifttt.com/applets/59545359d-if-new-tweet-by-stevesunypoly-including-retweets-replies-then-create-a-text-file-in-steve-sunyit-edu-s-box]]
+## Creates text file on Box (or DropBox) in tiddlers folder of node.js wiki with this structure:&lt;br&gt;``
+title: {{UserName}}. {{CreatedAt}}&lt;br&gt;
+createdAt: {{CreatedAt}}&lt;br&gt;
+tweet-text: {{Text}}&lt;br&gt;
+tweet-link: {{LinkToTweet}}&lt;br&gt;
+tags: TweetsToReview&lt;br&gt;
+``
+# bash script
+## rename .txt files as .tid files
+## load all tid files into wiki
+## write index script 
+# tweet review process
+## use [[tweets templates]] to identify and present tiddlers tagged for review
+## removes &lt;&lt;tag TweetsToReview&gt;&gt; and replaces with &lt;&lt;tag Tweets&gt;&gt;
+## use [[Checkbox tag macro]] to add tags based on specific dimensions
+## rename tiddler (so it doesn't get overwritten next load)
+
+</pre>
+</div>
+<div created="20170816145008238" modified="20170816145018752" tags="" title="A Twitter Stream">
+<pre>&lt;$twitter type=&quot;timelineUrl&quot; url=&quot;https://twitter.com/stevesunypoly&quot;/&gt;
+</pre>
+</div>
+<div created="20170816154834024" modified="20170816154846930" tags="[[Political Institutions]]" title="Administrative Agencies &amp; Departments">
+<pre></pre>
+</div>
+<div created="20170320145657641" creator="stevesunypoly" modified="20170816154914037" modifier="steve" tags="$:/tags/Macro SlicingText Templating" title="Checkbox tag macro">
+<pre>\define checkboxtag(tiddler parentTag)
+&lt;$link to=&quot;$parentTag$&quot;&gt;$parentTag$&lt;/$link&gt; &lt;$list filter=&quot;[tag[$parentTag$]]&quot;&gt;&lt;$checkbox tiddler=&quot;$tiddler$&quot; tag=&lt;&lt;currentTiddler&gt;&gt; &gt;&lt;&lt;currentTiddler&gt;&gt;&lt;/$checkbox&gt;
+&lt;/$list&gt;
+&lt;&lt;designwrite &quot;[[Macro|Checkbox tag macro]]&quot;&gt;&gt;
+\end
+
+```
+&lt;$macrocall $name=&quot;checkboxtag&quot; tiddler=&lt;&lt;currentTiddler&gt;&gt; parentTag=&quot;Four Words&quot;/&gt;
+```
+
+&lt;$macrocall $name=&quot;checkboxtag&quot; tiddler=&quot;03-01&quot; parentTag=&quot;Political Institutions&quot;/&gt;
+</pre>
 </div>
 <div created="20170815191321609" modified="20170815193059827" title="Classes">
 <pre>\define indirect() Module$(module-due)$
@@ -9710,6 +9994,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 &lt;/span&gt;
 
 &lt;/$list&gt;</pre>
+</div>
+<div created="20170816154804921" modified="20170816154809113" tags="[[Political Institutions]]" title="Congress">
+<pre></pre>
 </div>
 <div bag="default" created="20170727202737911" modified="20170815192930584" revision="0" tags="$:/tags/Stylesheet" title="custom-style-sheet" type="text/vnd.tiddlywiki">
 <pre>.class-topic {
@@ -9801,6 +10088,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20170815194427359" modified="20170815194434203" tags="links" title="https://www.isidewith.com/polls">
 <pre>https://www.isidewith.com/polls</pre>
 </div>
+<div created="20170816154850016" modified="20170816154854514" tags="[[Political Institutions]]" title="Judiciary">
+<pre></pre>
+</div>
 <div module-assignment="My Issue in Contemporary American Political System" module-description="How is power distributed through political insitutitons? How are the issues you care most about addressed by these institutions?" module-end="Mon Dec11" module-name="Political Institutions" module-number="" module-start="20171030000000000" percent-grade="40%" tags="Modules" title="module-name">
 <pre></pre>
 </div>
@@ -9861,14 +10151,74 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div due-date="Mon Oct30" module-number="3" tags="Assignments" title="My Key Issues">
 <pre></pre>
 </div>
-<div created="20170815201947669" modified="20170815202125658" tags="" title="New Tiddler">
-<pre>&lt;iframe src=&quot;https://censusreporter.org/profiles/50000US3619-new-york-congressional-district-19/&quot; width=&quot;100%&quot;&gt;</pre>
-</div>
 <div bibtex-entry-type="misc" bibtex-file="Powers of the United States Congress - Wikipedia:/Users/steveschneider/Library/Application Support/Firefox/Profiles/f7nvhcz9.default/zotero/storage/C7FWCW47/Powers_of_the_United_States_Congress.html:text/html" bibtex-note="00000" bibtex-title="Powers of the {United} {States} {Congress} - {Wikipedia}" bibtex-url="https://en.wikipedia.org/wiki/Powers_of_the_United_States_Congress" bibtex-urldate="2017-08-15" created="20170815200524825" modified="20170815200539593" title="noauthor_powers_nodate">
 <pre>{{!!bibtex-title}}</pre>
 </div>
+<div created="20170816135934442" modified="20170816140211049" source="https://groups.google.com/d/msg/tiddlywiki/LSnmBKK8Oyg/qn_XfKomPQAJ" tags="" title="numtags">
+<pre>&lt;style&gt;
+.cloud { margin-right: 7px; }
+.cloud .tc-tag-list-item { margin-right: 0; }
+&lt;/style&gt;
+&lt;$list filter=&quot;[tags[]!is[system]sort[title]]&quot;&gt;
+&lt;span class=&quot;cloud&quot;&gt;
+&lt;$transclude tiddler=&quot;$:/core/ui/TagTemplate&quot;/&gt;
+&lt;$count filter=&quot;[all[current]tagging[]]&quot;/&gt;
+&lt;/span&gt;
+&lt;/$list&gt;
+&lt;br&gt;
+&lt;a href={{!!source}} target=&quot;_blank&quot;&gt;Source&lt;/a&gt;</pre>
+</div>
 <div due-date="Mon Sep18" module-number="1" tags="Assignments" title="Political Autobiography">
 <pre></pre>
+</div>
+<div created="20170816154753631" modified="20170816154801593" tags="" title="Political Institutions">
+<pre></pre>
+</div>
+<div created="20170816154819554" modified="20170816154830299" tags="[[Political Institutions]]" title="Presidency">
+<pre></pre>
+</div>
+<div created="20170816184102896" createdAt="August 16, 2017 at 02:36PM" link="http://twitter.com/stevesunypoly/status/897889829475700736" modified="20170816184221173" tags="Presidency Tweets TweetsToReview" title="stevesunypoly. August 16, 2017 at 02:36PM" tweet-text="Even Fox&amp;amp;Friends guests reject Trump false equivalence: &quot;Mr. President, good people don't pal around with Nazis&quot; https://t.co/BNtCwop1bk" type="application/x-tiddler">
+<pre></pre>
+</div>
+<div created="20170816134603291" modified="20170816134619924" tags="links" title="The House is on fire">
+<pre>http://talkingpointsmemo.com/edblog/the-house-is-on-fire-accepting-the-truth-of-the-trump-revolution</pre>
+</div>
+<div tags="TweetsToBeReviewed" title="Tweet-6:29 AM - 16 Aug 2017" tweet-link="https://twitter.com/stevesunypoly/status/897812562766639108">
+<pre></pre>
+</div>
+<div created="20170816160843289" modified="20170816160845594" tags="Congress Tweets" title="Tweet-6:35 AM - 14 Aug 2017" tweet-link="https://twitter.com/LauricellaTom/status/897089212163424256">
+<pre></pre>
+</div>
+<div tags="TweetsToBeReviewed" title="Tweet-7:59 AM - 16 Aug 2017" tweet-link="http://twitter.com/stevesunypoly/status/897835191846273024">
+<pre></pre>
+</div>
+<div created="20170816160322526" modified="20170816160344520" tags="" title="Tweets">
+<pre>&lt;$list filter=&quot;[tag[Tweets]]&quot;&gt;
+&lt;$list filter=&quot;[{!!tweet-link}split:after[status/]]&quot;&gt;
+&lt;$twitter type=&quot;tweet&quot; tweetID=&lt;&lt;currentTiddler&gt;&gt;/&gt;
+&lt;/$list&gt;
+&lt;hr&gt;
+&lt;/$list&gt;</pre>
+</div>
+<div created="20170816152128003" modified="20170816184204155" tags="$:/tags/ViewTemplate" title="tweets templates">
+<pre>&lt;$list filter=&quot;[is[current]tag[TweetsToReview]]&quot;&gt;
+&lt;$macrocall $name=&quot;checkboxtag&quot; tiddler=&lt;&lt;currentTiddler&gt;&gt; parentTag=&quot;Political Institutions&quot;/&gt;
+&lt;$list filter=&quot;[{!!link}split:after[status/]]&quot;&gt;
+&lt;$twitter type=&quot;tweet&quot; tweetID=&lt;&lt;currentTiddler&gt;&gt;/&gt;
+&lt;/$list&gt;
+&lt;$button&gt;
+Review tweet
+&lt;$action-listops $tags=&quot;+[append[Tweets]] +[!remove[TweetsToBeReviewed]]&quot;/&gt;
+&lt;/$button&gt;
+&lt;/$list&gt;
+
+
+
+&lt;$list filter=&quot;[is[current]tag[Tweets]]&quot;&gt;
+&lt;$list filter=&quot;[{!!link}split:after[status/]]&quot;&gt;
+&lt;$twitter type=&quot;tweet&quot; tweetID=&lt;&lt;currentTiddler&gt;&gt;/&gt;
+&lt;/$list&gt;
+&lt;/$list&gt;</pre>
 </div>
 <div title="Untitled">
 <pre>project-template</pre>

@@ -1,0 +1,32 @@
+created: 20170816204347242
+modified: 20170817141950657
+revision: 0
+tags: 
+title: Tweets To Review
+type: text/vnd.tiddlywiki
+
+\define newtitlemacro() Tweet-$(oldTiddler)$ 
+
+<$list filter="[tag[TweetsToReview]]" emptyMessage="No tweets to review">
+<$vars oldTiddler=<<currentTiddler>>>
+<$macrocall $name="checkboxtag" tiddler=<<oldTiddler>> parentTag="Political Institutions"/><br>
+<$list filter="[{!!tweet-link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+<$button>
+Review tweet
+<$tiddler tiddler=<<oldTiddler>>>
+<$action-setfield $tiddler=<<newtitlemacro>> 
+tags={{!!tags}}
+tweet-link={{!!tweet-link}}
+tweet-text={{!!tweet-text}}
+createdat={{!!createdat}}	
+/>
+<$action-listops $tiddler=<<oldTiddler>> $tags="+[append[ReviewedTweets]] +[!remove[TweetsToReview]]"/>
+<$action-listops $tiddler=<<newtitlemacro>> $tags="+[append[Tweets]] +[!remove[TweetsToReview]]"/>
+</$tiddler>
+</$button><br>
+<hr>
+</$vars>
+</$list>
+

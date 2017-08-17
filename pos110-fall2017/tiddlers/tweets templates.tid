@@ -1,0 +1,24 @@
+created: 20170816152128003
+modified: 20170816193213512
+tags: $:/tags/ViewTemplate
+title: tweets templates
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[TweetsToReview]]">
+<$macrocall $name="checkboxtag" tiddler=<<currentTiddler>> parentTag="Political Institutions"/>
+<$list filter="[{!!link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+<$button>
+Review tweet
+<$action-listops $tags="+[append[Tweets]] +[!remove[TweetsToBeReviewed]]"/>
+</$button>
+</$list>
+
+
+
+<$list filter="[is[current]tag[Tweets]]">
+<$list filter="[{!!link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+</$list>
